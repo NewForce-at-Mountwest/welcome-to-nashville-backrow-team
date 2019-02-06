@@ -1,8 +1,12 @@
 #search-boxes{
     display: flex;
     flex-direction: column;
-    
+    border: 2px black solid;
 }
 #results-box{
     text-transform: capitalize;
+    border: 2px black solid;
+}
+#itinerary-box{
+    border: 2px black solid;
 }
