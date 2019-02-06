@@ -1,9 +1,7 @@
-const printDinoCard = (dinoName, imageUrl) => {
-    const dinoHTMLString = dinoCard(dinoName, imageUrl);
-
+const printResults = (location,) => {
+  //gather string data
+    const resultsHTMLString = resultsBuilder();
     // put the resulting HTML string in the DOM
-    document.querySelector(
-      "#search-results"
-    ).innerHTML += dinoHTMLString;
+    document.querySelector(`${location}`).innerHTML += resultsHTMLString;
 
 }
