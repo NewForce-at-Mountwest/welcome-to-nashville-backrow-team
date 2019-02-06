@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport content=width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Visit Nashville</title>
-  </head>
-  <body>
-<h1>Welcome to Nashville!</h1>
-<h2>Search for things to do</h2>
-<div id="search-boxes">
-</div>
-<h2>Results</h2>
-<div class="results-box"></div>
-<h2>My Itinerary</h2>
-<div id="itinerary-box">
-  <div id="restaraunts-itin"></div>
-  <div id="meetup-itin"></div>
-  <div id="concert-itin"></div>
-</div>
-    <script src="scripts/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport content=width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Visit Nashville</title>
+</head>
+
+<body>
+  <h1>Welcome to Nashville!</h1>
+  <h2>Search for things to do</h2>
+  <div id="search-boxes">
+
+    <input type="text" id="restSearch" placeholder="Search for Restaraunts by Food Type">
+    <button type="button" id="RestSearch-btn">Search </button>
+    <input type="text" id="meetSearch" placeholder="Search for Restaraunts by Food Type">
+    <button type="button" id="meet-btn">Search </button>
+    <label for="concertInput">Search for Concerts by Genre</label>
+    <input type="text" id="concertSearch" placeholder="Search for Concerts by Genre">
+    <button type="button" id="concert Search-btn">Search </button>
+  </div>
+  <h2>Results</h2>
+  <div class="results-box"></div>
+  <h2>My Itinerary</h2>
+  <div id="itinerary-box">
+    <div id="restaraunts-itin"></div>
+    <div id="meetup-itin"></div>
+    <div id="concert-itin"></div>
+  </div>
+  <script src="scripts/main.js"></script>
+</body>
+
 </html>
