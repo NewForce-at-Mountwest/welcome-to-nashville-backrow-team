@@ -6,8 +6,6 @@ const findConcert = (genre) => {
         //api key E6QsEDsPDjQn8AKpW23mpb5mYIQvE661 ---DO NOT CHANGE KEY! ---
         .then(response => response.json())
         .then(response => {
-            console.log(response._embedded.events)
-
             //logs the returned events
             for (i = 0; i < 4; i++) {
                 let top4ConcertName = response._embedded.events[i].name //this stores the information and is passed into the printToDOM function
