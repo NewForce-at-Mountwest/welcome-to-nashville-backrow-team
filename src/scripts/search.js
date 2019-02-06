@@ -21,6 +21,6 @@ document.querySelector("#concertSearch-btn").addEventListener("click", () =>{
     console.log("You clicked the button")
     let searchTerm = document.querySelector("#concertSearch").value
     console.log("This is the concert search term:", searchTerm)
-    // apiConcertManager(searchTerm)
+    findConcert(searchTerm)
 
 })
