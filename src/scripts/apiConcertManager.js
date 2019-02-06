@@ -7,7 +7,7 @@ const findConcert = (genre) => {
         .then(response => response.json())
         .then(response => {
             console.log(response._embedded.events)
-            
+
             //logs the returned events
             for (i = 0; i < 4; i++) {
                 let top4ConcertName = response._embedded.events[i].name //this is temporary so that I can make sure I'm grabing the correct information
@@ -17,10 +17,6 @@ const findConcert = (genre) => {
             }
 
         })
-    //gather only top 4's name and date
-    //convert to html string
-    //post to DOM
-
 }
 
 const rockConcert = findConcert("rock");
