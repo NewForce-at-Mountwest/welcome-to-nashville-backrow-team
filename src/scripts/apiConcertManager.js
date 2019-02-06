@@ -15,5 +15,3 @@ const findConcert = (genre) => {
 
         })
 }
-
-const rockConcert = findConcert("rock");
