@@ -16,10 +16,11 @@ const apiMeetManager = (searchField, token) => {
                 let meetupName = parsedMeets.events[i].name.text
                 let meetupDate = parsedMeets.events[i].start.local
                 meetupDate = meetupDate.replace("T"," @ ")
-                // call results builder and
-                // resultsBuilder(meetupName, meetupURL)
+
+                let resultsString = resultsBuilder(meetupName, meetupDate, i)
 
                 console.log(meetupName, meetupDate);
+                console.log(resultsString)
             }
         }
         )
