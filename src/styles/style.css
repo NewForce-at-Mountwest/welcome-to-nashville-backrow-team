@@ -1,0 +1,8 @@
+#search-boxes{
+    display: flex;
+    flex-direction: column;
+    
+}
+.searchbars{
+    width:45vw;
+}
