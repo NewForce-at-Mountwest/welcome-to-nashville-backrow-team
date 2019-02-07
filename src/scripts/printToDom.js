@@ -9,6 +9,6 @@ const printResults = (thing1, thing2, i) => {
 
 //prints itinerary data to itinerary section in the DOM
 const printItinerary = (location) => {
-  const itinString = intineraryResults(); //calls and gathers string data, storing it into a variable
-  document.querySelector(`${location}`).innerHTML = itinString; //inserts returned string into the dom at specified location
+  const itinString = intineraryResults(); //calls and gathers string data, storing it into a variable //this function isn't named yet, this is a placeholder name
+  document.querySelector(`${location}`).innerHTML = itinString; //inserts returned variable into the dom at specified location
 }

@@ -1,1 +1,1 @@
-//function that clones p text content, replace existing div 1 content with new information
+//function that clones some text content, replace existing single div content with new information

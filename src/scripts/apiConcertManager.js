@@ -15,3 +15,5 @@ const findConcert = (genre) => {
 
         })
 }
+
+findConcert("Rock");
