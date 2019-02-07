@@ -8,24 +8,28 @@ const apiMeetManager = (searchField, token) => {
             "Accept": "application/json"
         }
     })
+
         .then(meets => meets.json())
         .then(parsedMeets => {
             console.log(parsedMeets)
-
+            let resultsString = ""
+            document.querySelector(".results-box").innerHTML = "";
             for (i = 0; i < 4; i++) {
                 let meetupName = parsedMeets.events[i].name.text
                 let meetupDate = parsedMeets.events[i].start.local
                 meetupDate = meetupDate.replace("T"," @ ")
 
-                let resultsString = resultsBuilder(meetupName, meetupDate, i)
 
-                console.log(meetupName, meetupDate);
+                printResults(meetupName, meetupDate,i)
+
+                // console.log(meetupName, meetupDate);
                 console.log(resultsString)
             }
+
         }
         )
 
 
 }
 
-apiMeetManager("running", "S4NNLY5SFHVXOGTJC56G");
+// apiMeetManager("running", "S4NNLY5SFHVXOGTJC56G");
