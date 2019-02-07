@@ -3,6 +3,7 @@
 //You need to also pass in the iterator so that we can give the buttons original ids
 
 const resultsBuilder =(thing1, thing2, i) =>{
-    return `<p>${thing1}: ${thing2}<button type="button" class="btn${i}">save</button></p>`
+    return `<p>${thing1}: ${thing2}<button type="button" id="btn-${i}">save</button></p>`
+
 
 }
