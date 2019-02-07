@@ -19,7 +19,7 @@ document.querySelector("#search-boxes").addEventListener("click", () => {
         }
         if (targeted[0] === "park") {
             let searchTerm = document.querySelector(`#${targeted[0]}Search`).value
-            findPark(searchTerm)
+            apiParkManager(searchTerm)
         }
     }
 })
