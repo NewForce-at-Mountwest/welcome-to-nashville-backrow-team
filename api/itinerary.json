@@ -1,70 +1,10 @@
 {
   "itinerary": [
     {
-      "meetup": "Beach Park",
-      "restaurant": "pizza house",
-      "concert": "pink",
+      "meetup": "Nashville YogaFarm SNEAK PEEK FESTIVAL! ",
+      "restauraunt": "",
+      "concert": "",
       "id": 1
-    },
-    {
-      "meetup": "",
-      "restaurant": "",
-      "concert": "",
-      "id": 2
-    },
-    {
-      "meetup": "",
-      "restaurant": "",
-      "concert": "",
-      "id": 3
-    },
-    {
-      "meetup": "",
-      "restaurant": "",
-      "concert": "",
-      "id": 4
-    },
-    {
-      "meetup": "",
-      "restaurant": "",
-      "concert": "",
-      "id": 5
-    },
-    {
-      "meetup": "",
-      "restaurant": "",
-      "concert": "",
-      "id": 6
-    },
-    {
-      "meetup": "",
-      "restaurant": "",
-      "concert": "",
-      "id": 7
-    },
-    {
-      "meetup": "",
-      "restaurant": "",
-      "concert": "",
-      "id": 8
-    },
-    {
-      "meetup": "",
-      "restaurant": "",
-      "concert": "",
-      "id": 9
-    },
-    {
-      "meetup": "",
-      "restaurant": "",
-      "concert": "",
-      "id": 10
-    },
-    {
-      "meetup": "",
-      "restaurant": "",
-      "concert": "",
-      "id": 11
     }
   ]
 }

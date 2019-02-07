@@ -1,4 +1,4 @@
-const nodeToClone = (spanName) => {
+const nodeToClone = (spanName, i) => {
     let nodeToClone = document.querySelector(`#${spanName}-${i}`).cloneNode(true)
     document.querySelector(`#${spanName}-itin`).innerHTML = ""
     document.querySelector(`#${spanName}-itin`).appendChild(nodeToClone)
