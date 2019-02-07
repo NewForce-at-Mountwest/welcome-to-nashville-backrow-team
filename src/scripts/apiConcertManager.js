@@ -10,7 +10,7 @@ const findConcert = (genre) => {
             for (i = 0; i < 4; i++) {
                 let top4ConcertName = response._embedded.events[i].name //this stores the information and is passed into the printToDOM function
                 let top4ConcertDates = response._embedded.events[i].dates.start.localDate
-                printResults(top4ConcertName, top4ConcertDates, i); //builds an htmlstring and prints that string to the DOM
+                printResults(top4ConcertName, top4ConcertDates, i,"conc"); //builds an htmlstring and prints that string to the DOM
             }
 
         })

@@ -15,13 +15,13 @@
   <div id="search-boxes">
     <div class="search-bars">
       <input type="text" id="restSearch" placeholder="Search for Restaurants by Food Type">
-      <button type="button" id="restSearch-btn">Search </button></div>
+      <button type="button" id="rest-search-btn">Search </button></div>
     <div class="search-bars">
       <input type="text" id="meetSearch" placeholder="Search for MeetUps by Topic">
-      <button type="button" id="meet-btn">Search </button></div>
+      <button type="button" id="meet-search-btn">Search </button></div>
     <div class="search-bars">
     <input type="text" id="concertSearch" placeholder="Search for Concerts by Genre">
-    <button type="button" id="concertSearch-btn">Search </button>
+    <button type="button" id="conc-search-btn">Search </button>
   </div>
 
   </div>
@@ -29,17 +29,20 @@
   <div class="results-box"></div>
   <h2>My Itinerary</h2>
   <div id="itinerary-box">
-    <div id="restaurants-itin"></div>
-    <div id="meetup-itin"></div>
-    <div id="concert-itin"></div>
+    <div id="restaurants-itin"><p>Restaurants: <span id="rest-itin"></span><p></div>
+    <div id="meetup-itin"><p>Meetups: <span id="meet-itin"></span><p></p></div>
+    <div id="concert-itin"><p>Concerts: <span id="conc-itin"></span><p></p></div>
   </div>
   
   <script src="scripts/main.js"></script>
+
+  <script src="scripts/apiRestManager.js"></script>
   <script src="scripts/apiConcertManager.js"></script>
   <script src="scripts/apiMeetManager.js"></script>
   <script src="scripts/resultsBuilder.js"></script>
   <script src="scripts/search.js"></script>
   <script src="scripts/printToDom.js"></script>
+  <script src="scripts/save.js"></script>
 
 </body>
 
