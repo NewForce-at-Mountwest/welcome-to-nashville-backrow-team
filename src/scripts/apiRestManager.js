@@ -18,7 +18,7 @@ fetch(`https://developers.zomato.com/api/v2.1/search?entity_id=1138&entity_type=
             restString += resultsBuilder(restName, restLocation, i)
         }
 
-        // console.log(restString)
+         console.log(restString)
 
 
 
