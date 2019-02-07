@@ -17,6 +17,10 @@ document.querySelector("#search-boxes").addEventListener("click", () => {
             let searchTerm = document.querySelector(`#${targeted[0]}Search`).value
             findConcert(searchTerm)
         }
+        if (targeted[0] === "park") {
+            let searchTerm = document.querySelector(`#${targeted[0]}Search`).value
+            findPark(searchTerm)
+        }
     }
 })
 
