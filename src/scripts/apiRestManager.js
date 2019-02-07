@@ -17,7 +17,7 @@ const apiRestManager = (userInput) => {
             for (i = 0; i < 4; i++) {
                 let restName = parsedRest.restaurants[i].restaurant.name
                 let restLocation = parsedRest.restaurants[i].restaurant.location.address
-                printResults(restName, restLocation, i)
+                printResults(restName, restLocation, i, "rest")
             }
 
         })
