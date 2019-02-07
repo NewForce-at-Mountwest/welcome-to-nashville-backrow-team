@@ -1,6 +1,6 @@
 // build a function that hits the API and returns the name and url of a meetup based on the search input
 //
-const apiMeetManager = (searchField, token, nameSpan) => {
+const apiMeetManager = (searchField, token) => {
 
     fetch(`https://www.eventbriteapi.com/v3/events/search/?q=nashville_${searchField}&token=${token}`, {
         headers: {

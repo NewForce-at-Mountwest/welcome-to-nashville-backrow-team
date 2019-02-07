@@ -4,6 +4,8 @@ let splitArray = clicker.split("-");
 let spanName = splitArray[0]
 let i = splitArray[2];
 
+
+// nodeToClone()
 // console.log(document.querySelector(`#${spanName}-${i}`))
 let nodeToClone = document.querySelector(`#${spanName}-${i}`).cloneNode(true)
 document.querySelector(`#${spanName}-itin`).innerHTML=""
