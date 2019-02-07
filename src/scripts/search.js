@@ -3,7 +3,7 @@ document.querySelector("#restSearch-btn").addEventListener("click", () =>{
     console.log("You clicked the button")
     let searchTerm = document.querySelector("#restSearch").value
     console.log("This is the restaurant search term:", searchTerm)
-    // apiRestManager(searchTerm)
+    apiRestManager(searchTerm)
 
 })
 
