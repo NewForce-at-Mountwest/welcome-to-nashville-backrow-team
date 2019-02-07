@@ -54,3 +54,18 @@ button {
     color: white;
     width: 45vw;
 }
+/* styles for maps */
+
+
+.mapouter {
+  text-align: center;
+  height: 750px;
+  width: 750px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 750px;
+  width: 750px;
+}
