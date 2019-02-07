@@ -10,3 +10,4 @@ document.querySelector(`#${spanName}-itin`).innerHTML=""
 document.querySelector(`#${spanName}-itin`).appendChild(nodeToClone)
 
 })
+
