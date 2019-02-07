@@ -1,5 +1,56 @@
-#search-boxes{
+body {
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    background-image: url("https://bit.ly/2TEjWco");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+#search-boxes {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+p{
+    margin: 0.2em;
+}
+input {
+    width: 35vw;
+    height: 0.8em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 0.5em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.results-box {
+    background-color: rgb(128, 141, 158, 0.8); 
+    text-transform: capitalize;
+    border: 2px white solid;
+    padding: 1em;
+    margin: 1em;
+    color: white;
+    width:45vw;
+}
+
+#itinerary-box {
+    background-color: rgb(128, 141, 158, 0.8); 
+    border: 2px white solid;
+    padding: 1em;
+    margin: 1em;
+    color: white;
+    width: 45vw;
 }
