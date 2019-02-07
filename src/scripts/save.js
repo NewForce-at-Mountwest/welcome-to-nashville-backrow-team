@@ -8,6 +8,6 @@ let i = splitArray[2];
 let nodeToClone = document.querySelector(`#${spanName}-${i}`).cloneNode(true)
 document.querySelector(`#${spanName}-itin`).innerHTML=""
 document.querySelector(`#${spanName}-itin`).appendChild(nodeToClone)
-
+console.log(document.querySelector(`#${spanName}-itin`).textContent)
 })
 

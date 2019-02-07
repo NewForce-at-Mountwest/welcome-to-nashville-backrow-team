@@ -1,5 +1,5 @@
 const newItem = (itineraryObject) => {
-    fetch("http://localhost:8089/itinerary", {
+    fetch("http://localhost:8088/itinerary", {
         method: "POST", // or "PUT"
         headers: {
             "Content-Type": "application/json",
@@ -7,3 +7,22 @@ const newItem = (itineraryObject) => {
         body: JSON.stringify(itineraryObject)
     })
 }
+
+
+let itinerary = {
+    meetup: "",
+    restaurant: "",
+    concert: ""
+}
+
+
+changeItinerary = (meetup, restaurant, concert) => {
+    document.querySelector("#rest-itin").textContent
+    itinerary = `{meetup: ${meetup}, restauraunt: ${restaurant}, concert: ${concert}}`;
+    newItem(itinerary);
+    return itinerary;
+}
+
+
+
+newItem(itinerary);
