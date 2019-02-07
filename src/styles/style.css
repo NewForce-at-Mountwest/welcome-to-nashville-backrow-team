@@ -37,7 +37,7 @@ button {
 }
 
 .results-box {
-    background-color: rgb(128, 141, 158, 0.8); 
+    background-color: rgb(128, 141, 158, 0.8);
     text-transform: capitalize;
     border: 2px white solid;
     padding: 1em;
@@ -47,10 +47,25 @@ button {
 }
 
 #itinerary-box {
-    background-color: rgb(128, 141, 158, 0.8); 
+    background-color: rgb(128, 141, 158, 0.8);
     border: 2px white solid;
     padding: 1em;
     margin: 1em;
     color: white;
     width: 45vw;
+}
+
+nav{
+
+    width: 100%;
+    /* position: fixed; */
+    top: 0em;
+    background: teal;
+    padding: 1em;
+    font-size: 1.5em;
+    padding-left: 1em;
+
+}
+.tab:hover{
+background: yellow;
 }
