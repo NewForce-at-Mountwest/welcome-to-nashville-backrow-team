@@ -1,3 +1,3 @@
-const bitineraryBuilder = (itinItem, content) => {
-   return divContent = `<p>${itinItem}: ${content}</p>`
-}
+// const bitineraryBuilder = (itinItem, content) => {
+//    return divContent = `<p>${itinItem}: ${content}</p>`
+// }
