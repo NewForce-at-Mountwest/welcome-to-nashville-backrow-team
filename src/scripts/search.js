@@ -1,30 +1,25 @@
-//Click event for the restaurant search button
-document.querySelector("#rest-search-btn").addEventListener("click", () =>{
-    // restIDArray = event.target.id.split("-")
-    // console.log(restIDArray)
-    console.log("You clicked the button")
-    let searchTerm = document.querySelector("#restSearch").value
-    console.log("This is the restaurant search term:", searchTerm)
-    apiRestManager(searchTerm)
+//Click event for the div box around the search forms
+document.querySelector("#search-boxes").addEventListener("click", () => {
+//split the ID and put in the array so we can use the component strings
+    let targeted = event.target.id.split("-")
 
+
+    if (targeted[2] === "btn") {
+        if (targeted[0] === "rest") {
+            let searchTerm = document.querySelector(`#${targeted[0]}Search`).value
+            apiRestManager(searchTerm)
+        }
+        if (targeted[0] === "meet") {
+            let searchTerm = document.querySelector(`#${targeted[0]}Search`).value
+            apiMeetManager(searchTerm, "S4NNLY5SFHVXOGTJC56G")
+        }
+        if (targeted[0] === "conc") {
+            let searchTerm = document.querySelector(`#${targeted[0]}Search`).value
+            findConcert(searchTerm)
+        }
+    }
 })
 
-//Click event for the meetups search button
-document.querySelector("#meet-search-btn").addEventListener("click", () =>{
-    // meetIDArray = event.target.id.split("-")
-    // let nameSpan = meetIDArray[0]
-    console.log("You clicked the button")
-    let searchTerm = document.querySelector("#meetSearch").value
-    console.log("This is the meetups search term:", searchTerm)
-    apiMeetManager(searchTerm, "S4NNLY5SFHVXOGTJC56G")
 
-})
 
-//Click event for the concerts search button
-document.querySelector("#conc-search-btn").addEventListener("click", () =>{
-    console.log("You clicked the button")
-    let searchTerm = document.querySelector("#concertSearch").value
-    console.log("This is the concert search term:", searchTerm)
-    findConcert(searchTerm)
 
-})
