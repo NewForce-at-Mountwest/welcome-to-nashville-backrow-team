@@ -1,5 +1,5 @@
 //Click event for the restaurant search button
-document.querySelector("#restSearch-btn").addEventListener("click", () =>{
+document.querySelector("#rest-search-btn").addEventListener("click", () =>{
     console.log("You clicked the button")
     let searchTerm = document.querySelector("#restSearch").value
     console.log("This is the restaurant search term:", searchTerm)
@@ -8,7 +8,7 @@ document.querySelector("#restSearch-btn").addEventListener("click", () =>{
 })
 
 //Click event for the meetups search button
-document.querySelector("#meet-btn").addEventListener("click", () =>{
+document.querySelector("#meet-search-btn").addEventListener("click", () =>{
     console.log("You clicked the button")
     let searchTerm = document.querySelector("#meetSearch").value
     console.log("This is the meetups search term:", searchTerm)
@@ -17,7 +17,7 @@ document.querySelector("#meet-btn").addEventListener("click", () =>{
 })
 
 //Click event for the concerts search button
-document.querySelector("#concertSearch-btn").addEventListener("click", () =>{
+document.querySelector("#conc-search-btn").addEventListener("click", () =>{
     console.log("You clicked the button")
     let searchTerm = document.querySelector("#concertSearch").value
     console.log("This is the concert search term:", searchTerm)

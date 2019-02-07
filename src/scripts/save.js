@@ -9,4 +9,5 @@ console.log(splitArray)
 let i = splitArray[1];
 document.querySelector(`#span-${i}`)
 console.log(i)
+
 })
