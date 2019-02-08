@@ -12,9 +12,10 @@ const newItem = (itineraryObject) => {
 let itineraryVar = {
     meetup: "",
     restaurant: "",
-    concert: ""
+    concert: "",
+    park: ""
 }
-console.log(document.querySelector("#restaurants-itin").innerText)
+
 const splitStringTC = (location) => {
     let arr = document.querySelector(location).innerText.split(":")
     console.log(arr)
@@ -24,14 +25,16 @@ const splitStringTC = (location) => {
 }
 
 
-const changeItinerary = () => {
+const changeItinerary = (newOrOld) => {
     let restaurantVar = splitStringTC("#restaurants-itin");
     let meetupVar = splitStringTC("#meetup-itin");
     let concertVar = splitStringTC("#concert-itin");
+    let parkVar = splitStringTC("#parkFeature-itin");
     itineraryVar = {
         meetup: meetupVar,
         restauraunt: restaurantVar,
-        concert: concertVar
+        concert: concertVar,
+        park: parkVar
     };
     console.log(itineraryVar);
     newItem(itineraryVar);
