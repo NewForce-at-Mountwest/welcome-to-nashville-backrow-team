@@ -15,7 +15,7 @@ fetch("http://localhost:8088/itinerary", {
 
   <div class="card-body" >
   <h3>Itinerary ${element.id}</h3>
-    <p class="card-text"><strong>Restaurant:</strong> ${element.restaurant}.</p>
+    <p class="card-text"><strong>Restaurant:</strong> ${element.restauraunt}.</p>
     <p class="card-text"><strong>Meetup:</strong> ${element.meetup}.</p>
     <p class="card-text"><strong>Concert:</strong> ${element.concert}.</p>
     <p class="card-text"><strong>Park:</strong> ${element.park}.</p>
