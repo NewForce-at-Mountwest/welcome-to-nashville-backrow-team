@@ -1,18 +1,18 @@
-  {
-    "itinerary": [
-      {
-        "id": 1,
-        "park": "Centennial Park",
-        "restaurant": "Prince’s Hot Chicken",
-        "meetup": "Meeple Mountain Board Game Night",
-        "concert": "John Mellencamp at the Ryman"
-      },
-      {
-        "id": 2,
-        "park": "Centennial Park",
-        "restaurant": "Prince’s Hot Chicken",
-        "meetup": "Meeple Mountain Board Game Night",
-        "concert": "John Mellencamp at the Ryman"
-      }
-    ]
-  }
+{
+  "itinerary": [
+    {
+      "meetup": "A Night Out in Nashville",
+      "restauraunt": "P.F. Chang's",
+      "concert": "Interpol",
+      "park": "East Park",
+      "id": "1"
+    },
+    {
+      "meetup": "2019 Full Moon Running & Walking Challenge - Nashville",
+      "restauraunt": "The Pharmacy Burger Parlor & Beer Garden",
+      "concert": "Bouncing Souls",
+      "park": "East Park",
+      "id": "2"
+    }
+  ]
+}
