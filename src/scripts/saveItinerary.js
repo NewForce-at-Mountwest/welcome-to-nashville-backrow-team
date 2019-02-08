@@ -25,7 +25,7 @@ const splitStringTC = (location) => {
 }
 
 
-const changeItinerary = (newOrOld) => {
+const changeItinerary = () => {
     let restaurantVar = splitStringTC("#restaurants-itin");
     let meetupVar = splitStringTC("#meetup-itin");
     let concertVar = splitStringTC("#concert-itin");
