@@ -69,3 +69,8 @@ nav{
 .tab:hover{
 background: yellow;
 }
+
+.card-body{
+background: white;
+color: black;
+}

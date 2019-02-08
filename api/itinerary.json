@@ -1,10 +1,18 @@
-{
-    "itinerary":
-        {
-          "id": 1,
-          "park": "Centennial Park",
-          "restaurant": "Prince’s Hot Chicken",
-          "meetup": "Meeple Mountain Board Game Night",
-          "concert": "John Mellencamp at the Ryman"
-        }
+  {
+    "itinerary": [
+      {
+        "id": 1,
+        "park": "Centennial Park",
+        "restaurant": "Prince’s Hot Chicken",
+        "meetup": "Meeple Mountain Board Game Night",
+        "concert": "John Mellencamp at the Ryman"
+      },
+      {
+        "id": 2,
+        "park": "Centennial Park",
+        "restaurant": "Prince’s Hot Chicken",
+        "meetup": "Meeple Mountain Board Game Night",
+        "concert": "John Mellencamp at the Ryman"
+      }
+    ]
   }
