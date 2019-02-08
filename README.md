@@ -1,22 +1,24 @@
 # Welcome to Nashville: Build an itinerary for a day trip to Music City
 
-To use this page: fork the repo and clone it to your local machine.  Navigate to the src/lib and run:
+To use this page: fork the repo and clone it to your local machine.  Navigate to the directory src/lib in the project and run:
 
 ```js
 npm install
 ```
 
-change back to the root directory and enter:
+change back to the root project directory of the project and type:
 ```js
 code .
 ```
-to open all files in visual basic.  You will need to look at the following file
+to open all files in visual basic.
+
+You will need to look for the following file
 
 ```js
 src/lib/grunt/bgShell.js
 ```
 
-change:
+and change:
 ```js
 cmd: "json-server -p 8088 -w ../../api/db.json"
 ```
@@ -25,7 +27,7 @@ to:
 ```js
 cmd: "json-server -p 8088 -w ../../api/itinerary.json"
 ```
-In your terminal navigate back to the src/lib and type:
+In your terminal navigate back to the src/lib directory and type:
 
 ```js
 grunt
@@ -88,7 +90,7 @@ We hope you find this tool helpful and you enjoy your time in Music City!
 
 
 ### Bug fixes in future versions
-Currently the json database is
+Currently the json database is able to accept put and post data, but we have not figured out how to delete individual records.  Consequently, deleting a record only deletes it from the DOM and not from the database.  Refresh the page and it will return.
 
 ### Contributors:
 Russ Miller
