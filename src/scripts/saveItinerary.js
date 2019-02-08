@@ -13,23 +13,21 @@ let itineraryVar = {
     meetup: "",
     restaurant: "",
     concert: "",
-    park: ""
+    park: "",
 }
-
+console.log(document.querySelector("#rest-itin").innerText);
 const splitStringTC = (location) => {
-    let arr = document.querySelector(location).innerText.split(":")
-    console.log(arr)
-    singlestring = arr[1].trim();
-    console.log(singlestring);
-    return singlestring;
+    let arr = document.querySelector(location).innerText
+    console.log(arr);
+    return arr;
 }
 
 
 const changeItinerary = () => {
-    let restaurantVar = splitStringTC("#restaurants-itin");
-    let meetupVar = splitStringTC("#meetup-itin");
-    let concertVar = splitStringTC("#concert-itin");
-    let parkVar = splitStringTC("#parkFeature-itin");
+    let restaurantVar = splitStringTC("#rest-itin");
+    let meetupVar = splitStringTC("#meet-itin");
+    let concertVar = splitStringTC("#conc-itin");
+    let parkVar = splitStringTC("#park-itin");
     itineraryVar = {
         meetup: meetupVar,
         restauraunt: restaurantVar,

@@ -31,6 +31,7 @@
     </div>
     <h2>Results</h2>
     <div class="results-box"></div>
+
     <h2>My Itinerary</h2>
     <div id="itinerary-box">
       <div id="restaurants-itin">
@@ -45,9 +46,13 @@
         <p>Concerts:<span id="conc-itin"></span>
           <p></p>
       </div>
+      <div id="parks-itin">
+        <p>Parks:<span id="park-itin"></span>
+          <p></p>
+      </div>
       <div><button type="button" id="save-all-itin">Save Current Itinerary</button>
-        <buttin type="button" id="add-to-list">Add to Itinerary List</buttin><button type="button" id="start-over">Start
-          Over</button>
+        <button type="button" id="add-to-list">Add to Itinerary List</button>
+        <button type="button" id="start-over">Start Over</button>
       </div>
     </div>
 
@@ -55,17 +60,14 @@
     <script src="scripts/apiRestManager.js"></script>
     <script src="scripts/apiConcertManager.js"></script>
     <script src="scripts/apiMeetManager.js"></script>
-    <script src="scripts/resultsBuilder.js"></script>
+    <script src="scripts/apiParkmanager.js"></script>
     <script src="scripts/search.js"></script>
+    <script src="scripts/resultsBuilder.js"></script>
     <script src="scripts/printToDom.js"></script>
     <script src="scripts/save.js"></script>
     <script src="scripts/itineraryBuilder.js"></script>
-    <<<<<<< HEAD <script src="scripts/saveItinerary.js">
-      </script>
-      =======
-      <script src="scripts/apiParkmanager.js"></script>
-      >>>>>>> master
-
+    <script src="scripts/saveItinerary.js"></script>
+    <script src="scripts/addItineraryToList.js"></script>
 </body>
 
 </html>

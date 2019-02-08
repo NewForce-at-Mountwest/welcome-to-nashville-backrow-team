@@ -9,10 +9,10 @@ const addItem = (itineraryObject) => {
 }
 
 const addItinerary = () => {
-    let restaurantVar = splitStringTC("#restaurants-itin");
-    let meetupVar = splitStringTC("#meetup-itin");
-    let concertVar = splitStringTC("#concert-itin");
-    let parkVar = splitStringTC("#parkFeature-itin");
+    let restaurantVar = splitStringTC("#rest-itin");
+    let meetupVar = splitStringTC("#meet-itin");
+    let concertVar = splitStringTC("#conc-itin");
+    let parkVar = splitStringTC("#park-itin");
     itineraryVar = {
         meetup: meetupVar,
         restauraunt: restaurantVar,
