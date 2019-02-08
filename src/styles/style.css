@@ -56,3 +56,23 @@ button {
     color: white;
     width: 45vw;
 }
+
+nav{
+
+    width: 100%;
+    /* position: fixed; */
+    top: 0em;
+    background: teal;
+    padding: 1em;
+    font-size: 1.5em;
+    padding-left: 1em;
+
+}
+.tab:hover{
+background: yellow;
+}
+
+.card-body{
+background: white;
+color: black;
+}
