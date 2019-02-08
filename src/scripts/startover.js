@@ -1,11 +1,14 @@
-const deleteDB = () => {
-    fetch("http://localhost:8088/itinerary/", {
-        method: "DELETE", // or "POST"
-        headers: {
-            "Content-Type": "application/json",
-        },
-    })
-}
+// const deleteDB = (itineraryObject) => {
+//     fetch("http://localhost:8088/itinerary/1", {
+//         method: "DELETE", // or "POST"
+//         headers: {
+//             "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify({
+//             id: itineraryObject
+//         })
+//     })
+// }
 const clearFields = () => {
     document.getElementById("restSearch").reset();
     document.getElementById("meetSearch").reset();
@@ -18,8 +21,8 @@ const clearFields = () => {
     document.getElementById("park-itin").innerHTML = "";
 }
 
-const deleteALL = () =>{
-    deleteDB();
+const deleteALL = () => {
+    // deleteDB();
     clearFields();
 }
 
