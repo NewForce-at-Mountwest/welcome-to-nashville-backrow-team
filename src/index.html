@@ -22,52 +22,64 @@
     <div class="search-bars">
       <input type="text" id="concSearch" placeholder="Search for Concerts by Genre">
       <button type="button" id="conc-search-btn">Search </button>
+      <div class="search-bars">
+        <input type="text" id="parkSearch" placeholder="Search for Parks by features">
+        <button type="button" id="park-search-btn">Search </button></div>
+      <div class="search-bars">
+      </div>
     </div>
+
+ 
 
   </div>
   <h2>Results</h2>
   <div class="results-box"></div>
+
   <h2>My Itinerary</h2>
   <div id="itinerary-box">
     <div id="restaurants-itin">
-      <p>Restaurants: <span id="rest-itin"></span>
+      <p>Restaurants:<span id="rest-itin"></span>
         <p>
     </div>
     <div id="meetup-itin">
-      <p>Meetups: <span id="meet-itin"></span>
+      <p>Meetups:<span id="meet-itin"></span>
         <p></p>
     </div>
     <div id="concert-itin">
-      <p>Concerts: <span id="conc-itin"></span>
+      <p>Concerts:<span id="conc-itin"></span>
         <p></p>
     </div>
+    <div id="parks-itin">
+      <p>Parks:<span id="park-itin"></span>
+        <p></p>
+    </div>
+    <div><button type="button" id="save-all-itin">Save Current Itinerary</button>
+      <button type="button" id="add-to-list">Add to Itinerary List</button>
+      <button type="button" id="start-over">Start Over</button>
+    </div>
   </div>
-
-  <script src="scripts/main.js"></script>
-  <script src="scripts/apiRestManager.js"></script>
-  <script src="scripts/apiConcertManager.js"></script>
-  <script src="scripts/apiMeetManager.js"></script>
-  <script src="scripts/resultsBuilder.js"></script>
-  <script src="scripts/search.js"></script>
-  <script src="scripts/printToDom.js"></script>
-  <script src="scripts/save.js"></script>
-  <script src="scripts/itineraryBuilder.js"></script>
-  
-
-
-
-  
-
 
   <div class="mapouter">
     <div class="gmap_canvas"><iframe width="750" height="750" id="gmap_canvas"
         src="https://maps.google.com/maps?q=nashville%20tn&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
         scrolling="no" marginheight="0" marginwidth="0"></iframe><a
         href="https://www.pureblack.de/internetagentur/">internetagentur</a></div>
-   
+
   </div>
 
-
+  <script src="scripts/main.js"></script>
+  <script src="scripts/apiRestManager.js"></script>
+  <script src="scripts/apiConcertManager.js"></script>
+  <script src="scripts/apiMeetManager.js"></script>
+  <script src="scripts/apiParkmanager.js"></script>
+  <script src="scripts/search.js"></script>
+  <script src="scripts/resultsBuilder.js"></script>
+  <script src="scripts/printToDom.js"></script>
+  <script src="scripts/save.js"></script>
+  <script src="scripts/itineraryBuilder.js"></script>
+  <script src="scripts/saveItinerary.js"></script>
+  <script src="scripts/addItineraryToList.js"></script>
+  <script src="script/startover.js"></script>
 </body>
 
 </html>

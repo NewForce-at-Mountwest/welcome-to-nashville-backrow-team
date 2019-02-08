@@ -10,7 +10,7 @@ const apiMeetManager = (searchField, token) => {
 
         .then(meets => meets.json())
         .then(parsedMeets => {
-            let resultsString = ""
+            
             //clear the results box before populating results
             document.querySelector(".results-box").innerHTML = "";
             for (i = 0; i < 4; i++) {
