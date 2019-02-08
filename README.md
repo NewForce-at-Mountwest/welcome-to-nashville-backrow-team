@@ -17,13 +17,11 @@ When you enter a term in the search bar, click the 'search' button next to the s
 
 The results of each individual search will populate the results box down below.
 
-
 ![Alt text](images/results.jpg?raw=true "results")
 
 
 
 If you click the "save" button next to any one of those results, it will add it to your itinerary at the bottom of the page.
-
 
 
 ![Alt text](images/itinerary.jpg?raw=true "itinerary")
