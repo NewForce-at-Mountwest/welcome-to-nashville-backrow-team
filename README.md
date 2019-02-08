@@ -82,9 +82,9 @@ To see your saved itineraries, click on the "saved itineraries" tab at the top o
 
 ![Alt text](images/savedlist.jpg?raw=true "saved itineraries")
 
-If you would like to delete one of these itineraries, just click the 'delete' button on the itinerary you would like to delete and it will disappear from the page.
+If you would like to delete one of these itineraries, just click the 'delete' button and it will disappear from the page.
 
-You can always switch back to the "Build Itinerary" page to see the search fields and build another itinerary.
+You can always switch back to the "Build Itinerary" page to see the search fields again and build another itinerary.
 
 We hope you find this tool helpful and you enjoy your time in Music City!
 
