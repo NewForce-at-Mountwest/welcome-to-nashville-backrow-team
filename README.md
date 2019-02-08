@@ -1,5 +1,37 @@
 # Welcome to Nashville: Build an itinerary for a day trip to Music City
 
+To use this page: fork the repo and clone it to your local machine.  Navigate to the src/lib and run:
+
+```js
+npm install
+```
+
+change back to the root directory and enter:
+```js
+code .
+```
+to open all files in visual basic.  You will need to look at the following file
+
+```js
+src/lib/grunt/bgShell.js
+```
+
+change:
+```js
+cmd: "json-server -p 8088 -w ../../api/db.json"
+```
+to:
+
+```js
+cmd: "json-server -p 8088 -w ../../api/itinerary.json"
+```
+In your terminal navigate back to the src/lib and type:
+
+```js
+grunt
+```
+to run an HTML and JSON server simultaneously.
+
 There are many things to see and do in Nashville.  This page will allow you to search four different categories:
 
 * Restaurants--search by food type, such as 'Chinese' or 'American'
@@ -55,7 +87,12 @@ You can always switch back to the "Build Itinerary" page to see the search field
 We hope you find this tool helpful and you enjoy your time in Music City!
 
 
-## Contributors:
+### Bug fixes in future versions
+Currently the json database is
+
+### Contributors:
 Russ Miller
+
 Michelle Tabor
+
 Sydney Wait
