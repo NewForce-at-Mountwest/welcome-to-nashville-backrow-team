@@ -34,7 +34,6 @@ const changeItinerary = () => {
         concert: concertVar,
         park: parkVar
     };
-    console.log(itineraryVar);
     newItem(itineraryVar);
     return itineraryVar;
 }

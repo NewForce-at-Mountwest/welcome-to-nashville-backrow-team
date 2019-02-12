@@ -9,6 +9,10 @@ body {
     color: white;
 }
 
+#main {
+    margin-top: 50px;
+}
+
 #search-boxes {
     display: flex;
     flex-direction: column;
@@ -57,22 +61,38 @@ button {
     width: 45vw;
 }
 
-nav{
-
+nav {
+    overflow: hidden;
     width: 100%;
-    /* position: fixed; */
-    top: 0em;
-    background: teal;
-    padding: 1em;
-    font-size: 1.5em;
+    position: fixed;
+    top: 0;
+    background: cornflowerblue;
+    font-size: 1em;
     padding-left: 1em;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 3px;
 }
-.tab:hover{
-background: yellow;
+#navimg{
+    max-height: 35px;
+    align-self: flex-end;
 }
 
-.card-body{
-background: white;
-color: black;
+.tab {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.tab:hover {
+    background: darkblue;
+}
+
+.card-body {
+    background: white;
+    color: black;
 }
